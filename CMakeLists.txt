@@ -15,6 +15,6 @@ else()
 
     idf_component_register(SRCS ${SOURCE_FILES}
                            INCLUDE_DIRS "src"
-                           REQUIRES    driver)
+                           REQUIRES esp_driver_gpio driver)
 
 endif()
